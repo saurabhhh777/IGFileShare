@@ -39,7 +39,7 @@ app.post('/upload', upload.single('file'), async (req, res) => {
   const file = new File(fileData);
   await file.save();
 
-  const downloadLink = `http://localhost:${PORT}/download/${file._id}`;
+  const downloadLink = `https://appigshare.vercel.app/download/${file._id}`;
   res.json({ link: downloadLink });
 
   console.log(`File ${file.filename} will expire in 15 minutes.`);
