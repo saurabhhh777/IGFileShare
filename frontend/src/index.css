@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .drag-drop-zone {
+    border: 2px dashed #ccc;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .dragging {
+    background-color: #f0f8ff;
+  }
+  
+  .file-link {
+    margin-top: 20px;
+  }
+  
+  .link-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .link-container input {
+    width: 300px;
+    padding: 5px;
+  }
+  
+  .link-container button {
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
