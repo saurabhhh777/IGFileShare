@@ -10,7 +10,7 @@ const App = () => {
     const formData = new FormData();
     formData.append('file', file);
 
-    fetch('http://localhost:5000/upload', {
+    fetch('https://igfileshare-backend.onrender.com/upload', {
       method: 'POST',
       body: formData,
     })
